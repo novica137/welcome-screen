@@ -51,7 +51,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome, <span id="Novica_Rackovic">Guest</span>!</h1>
+    <h1>Welcome, <span id="guest-name">Guest</span>!</h1>
 
     <div class="icons">
         <div class="icon" onclick="window.location.href = 'http://your-tv-application-link.com';">Watch TV</div>
@@ -61,7 +61,7 @@
 
     <div id="emailPopup" class="email-popup">
         <p>If you have any suggestions or complaints, please email us at:</p>
-        <p><strong>novica137@gmail.com</strong></p>
+        <p><strong>your-email@example.com</strong></p>
         <button onclick="closeEmailPopup()">Close</button>
     </div>
 
